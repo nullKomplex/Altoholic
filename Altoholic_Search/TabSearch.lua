@@ -44,7 +44,7 @@ local categories = {
 	{
 		name = AUCTION_CATEGORY_CONTAINERS,
 		class = LE_ITEM_CLASS_CONTAINER,
-		subClasses = { C_AuctionHouse.GetAuctionItemSubClasses:(LE_ITEM_CLASS_CONTAINER) },
+		subClasses = { C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_CONTAINER) },
 		isCollapsed = true,
 	},
 	{
